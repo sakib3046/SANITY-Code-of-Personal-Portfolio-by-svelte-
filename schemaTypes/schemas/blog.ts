@@ -7,7 +7,17 @@ export default{
             name:'blog_title',
             title:'Blog Title',
             type:'string'
+            
         },
+        {
+  title: 'Slug',
+  name: 'slug',
+  type: 'slug',
+  options: {
+    source: 'blog_title',
+  }
+  
+},
         {
             title: 'Blog Date',
             name: 'blog_date',
